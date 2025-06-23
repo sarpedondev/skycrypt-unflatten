@@ -52,9 +52,9 @@ SkyCrypt’s Svelte endpoint (e.g. `https://sky.shiiyu.moe/stats/USERNAME/PROFIL
           "apiSettings": 11828,
           "errors": 11829
         },
-        "TomJuly", // index 2
-        "fccff21b9bb84923bd55189c1b1b3f0a",
-        "f63c6dcc-a73c-4ce7-b8ee-44168c1e7a72",
+        "Tom...", // index 2
+        "fccff...",
+        "f63c....",
         "Lemon",
         true,
         {
@@ -70,7 +70,7 @@ SkyCrypt’s Svelte endpoint (e.g. `https://sky.shiiyu.moe/stats/USERNAME/PROFIL
         {
           "DISCORD": 13
         },
-        "tomjuri",
+        "tom...",
         "..."
       ]
     }
@@ -87,10 +87,10 @@ The above json gets translated to the following:
 ```json
 {
   "user": 1,
-  "displayName": "TomJuly",
-  "username": "TomJuly",
-  "uuid": "fccff21b9bb84923bd55189c1b1b3f0a",
-  "profile_id": "f63c6dcc-a73c-4ce7-b8ee-44168c1e7a72",
+  "displayName": "Tom...",
+  "username": "Tom...",
+  "uuid": "fccff...",
+  "profile_id": "f63c...",
   "profile_cute_name": "Lemon",
   "selected": true,
   "rank": {
@@ -100,7 +100,8 @@ The above json gets translated to the following:
     "plusColor": "#d88f07"
   },
   "social": {
-    "DISCORD": "tomjuri"
-  }
+    "DISCORD": "tom..."
+  },
+  "..."
 }
 ```
